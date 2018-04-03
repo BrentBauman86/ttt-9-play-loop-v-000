@@ -37,8 +37,6 @@ end
 
 # Define your play method below
 def play(board)
-  turn(board) = display_board(board)
-  while turn(board) < display_board(board)
-    turn(board) == display_board(board)
+  turn
   end
 end
