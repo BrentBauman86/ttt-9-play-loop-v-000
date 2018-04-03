@@ -37,6 +37,11 @@ end
 
 # Define your play method below
 def play(board)
-  turn
+  turn = 0
+  turn(board).each do |move|
+    if move == "X" || move == "O"
+      turn += 1
   end
 end
+
+
