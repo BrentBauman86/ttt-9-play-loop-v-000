@@ -42,4 +42,3 @@ def play(board)
     display_board += 9
   end
 end
-end
